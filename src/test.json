@@ -1,0 +1,45 @@
+{
+    "date": "23-03-2022",
+    "month": "Mar",
+    "timeStamp":"March 23, 2022 at 9:02:34 PM UTC+5",
+    "openning": 3770,
+    "computer": {
+        "CV": 100,
+        "Typing": 100,
+        "Designing": 500,
+        "colorPrint": 1200,
+        "total": 1900
+    },
+    "photocopy": {
+        "CNICCopies": 100,
+        "CopiesA4": 100,
+        "CopiesA3": 50,
+        "total": 250
+    },
+    "expenses": {
+        "PVCSheets": 1270,
+        "Paper": 2500,
+        "total": 3770
+    },
+    "drawing": {
+        "Faraz": 100,
+        "Murtaza": 30
+    },
+    "cash": {
+        "5000": 0,
+        "1000": 1,
+        "500": 2,
+        "100": 0,
+        "50": 0,
+        "20": 0,
+        "10": 1,
+        "coins": 10,
+        "total": 2020
+    },
+    "bank": 0,
+    "receivables": {
+        "moheet": 200,
+        "kamran": 500
+    },
+    "closing": 2020
+}
