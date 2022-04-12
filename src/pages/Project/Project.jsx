@@ -1,5 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
+import ProjectComments from '../../Components/ProjectComments/ProjectComments'
 import { useDocument } from '../../hooks/useDocument'
 import './Project.css'
 import ProjectSummary from './ProjectSummary'
@@ -17,6 +18,7 @@ export default function Project() {
   return (
     <div className='project-details'>
       <ProjectSummary project={document} />
+      <ProjectComments project={document} />
     </div>
   )
 }
