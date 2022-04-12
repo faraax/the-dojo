@@ -35,10 +35,10 @@ export default function ProjectSummary({ project }) {
                     ))
                     }
                 </div>
-                {
-                    project.createBy.id === user.uid && <button className="btn" onClick={handleDelete}>Mark as complete</button>
-                }
             </div>
+            {
+                project.createBy.id === user.uid && <button className="btn" onClick={handleDelete}>Mark as complete</button>
+            }
         </div>
     )
 }
