@@ -1,11 +1,9 @@
-import React, { useState } from 'react'
+
 
 const filterList = ['all', 'mine', 'development', 'design', 'marketing', 'sales']
 
-export default function ProjectFilter() {
-    const [currentFilter, setCurrentFilter] = useState('all')
+export default function ProjectFilter({ currentFilter, setCurrentFilter }) {
     const handleClick = (newFilter) => {
-        console.log(newFilter);
         setCurrentFilter(newFilter)
     }
     return (
@@ -15,7 +13,7 @@ export default function ProjectFilter() {
                 {
                     filterList.map((list, index) => (
                         <button key={index} onClick={() => handleClick(list)} className={currentFilter === list ? 'active' : ''}>
-                            {list}
+                            {list.charAt(0).toUpperCase() + list.slice(1)}
                         </button>
                     ))
                 }

@@ -93,15 +93,15 @@ export default function Create() {
       <form onSubmit={handleSubmit}>
         <label>
           <span>Projectg Name</span>
-          <input type="text" required onChange={(e) => setName(e.target.value)} value={name} />
+          <input type="text" name='project name' required onChange={(e) => setName(e.target.value)} value={name} />
         </label>
         <label>
           <span>Projectg Details</span>
-          <textarea type="text" required onChange={(e) => setDetails(e.target.value)} value={details} />
+          <textarea type="text" name='project details' required onChange={(e) => setDetails(e.target.value)} value={details} />
         </label>
         <label>
           <span>Set Due Date</span>
-          <input type="date" required onChange={(e) => setDueDate(e.target.value)} value={dueDate} />
+          <input type="date" name='project due date' required onChange={(e) => setDueDate(e.target.value)} value={dueDate} />
         </label>
         <label>
           <span>Project Category: </span>
