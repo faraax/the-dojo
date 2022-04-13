@@ -34,7 +34,6 @@ export default function Signup() {
     }
     setThumbnailError(null)
     setThumbnail(selected)
-    console.log('File uploaded');
   }
   return (
     <form className='auth-form' onSubmit={handleSubmit}>
